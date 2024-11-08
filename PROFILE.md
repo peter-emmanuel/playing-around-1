@@ -2,7 +2,7 @@
 ## Checking rust types
 ### Checking rust types
 
-**Rust** __helper__ function
+**Rust** _helper_ function
 ```
 fn type_of<T: std::fmt::Debug>(s: &str, _: &T) -> &'static str {
   let tp = std::any::type_name::<T>();
@@ -11,7 +11,7 @@ fn type_of<T: std::fmt::Debug>(s: &str, _: &T) -> &'static str {
 }
 ```
 
-**Rust** __helper__ function
+**Rust** _helper_ function
 ```
 fn option_type<T: std::fmt::Display>(opt: &Option<T) {
   match opt {
